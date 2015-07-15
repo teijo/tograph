@@ -12,7 +12,19 @@ brew install ghc cabal-install
 
 ## Running
 
-In projet root:
+To setup build environment (once)
+
+```
+cabal sanbox init
+```
+
+To update dependencies (after init or dependency update)
+
+```
+cabal install
+```
+
+To recompile and run
 
 ```
 cabal run
